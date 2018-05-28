@@ -17,7 +17,7 @@ public class Clerk implements Serializable {
     private Integer gender;  /* 男 : 0, 女 : 1 */
 
     @Column(nullable = false)
-    private Integer hopingDays; /* 希望なし : 0, 希望あり : 1*/
+    private Integer hopingOffDays; /* 希望なし : 0, 希望あり : 1*/
 
     @Column(nullable = false)
     private Integer hopingEL; /* 希望なし : 0, 早 : 1, 遅 : 2*/
