@@ -24,4 +24,6 @@ public class Clerk implements Serializable {
 
     private Integer minDays; /* 最低希望日数 */
 
+    private Integer maxDays; /* 最高希望日数 */
+
 }
